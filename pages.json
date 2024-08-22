@@ -1,0 +1,64 @@
+{
+	"easycom": {
+			"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+		},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "人员信息"
+			}
+		},
+		{
+			"path" : "pages/info2/info2",
+			"style" : 
+			{
+				"navigationBarTitleText" : "修改人员信息"
+			}
+		},
+		{
+			"path" : "pages/info3/info3",
+			"style" : 
+			{
+				"navigationBarTitleText" : "修改工作经历/评价"
+			}
+		},
+		
+		{
+			"path" : "pages/addskillinfo/addskillinfo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "添加员工个人技能"
+			}
+		},
+		{
+			"path" : "pages/addworkinfo/addworkinfo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "添加员工工作经历"
+			}
+		},
+		{
+			"path" : "pages/delskillinfo/delskillinfo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "删除技能/经历"
+			}
+		},
+		{
+			"path" : "pages/peopleall/peopleall",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
